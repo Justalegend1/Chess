@@ -47,7 +47,7 @@ export class Board {
 
   public getCell(x: number, y: number) {
     return this.cells[y][x]
-  }
+  } //возвращает текущую клетку
 
   private addPawns() {
     for (let i = 0; i < 8; i++) {
